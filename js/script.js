@@ -9,7 +9,7 @@ menuIcon.onclick = () => {
 
 document.getElementById("descargarLink").onclick = function() {
    var enlaceDeDescarga = document.createElement("a");
-   enlaceDeDescarga.href = "https://drive.google.com/file/d/1B8mYhCbyOt4vbPrIbw11HqxmiR8z9Ob6/view?usp=sharing"; // Reemplaza "documento.pdf" con la URL de tu documento
+   enlaceDeDescarga.href = "/currículum/Mauricio Benavides.pdf"; // Reemplaza "documento.pdf" con la URL de tu documento
    enlaceDeDescarga.download = "Mauricio-Benavides.pdf"; // Nombre del archivo a descargar
    enlaceDeDescarga.click();
 }
