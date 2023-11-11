@@ -33,7 +33,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1.5rem 9%;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -62,7 +64,7 @@ body {
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
-    transition: .3s;
+    transition: .1s;
 }
 
 .navbar a:hover,
