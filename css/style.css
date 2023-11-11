@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    transition: .3s;
+    transition: .1s;
 }
 
 .header.sticky {
@@ -710,13 +710,13 @@ span {
  .navbar .animate,
  #menu-icon .animate,
  .home.show-animate .animate {
-    animation: showRight 1s ease forwards;
-    animation-delay: calc(.3s * var(--i));
+    animation: showRight 2s ease forwards;
+    animation-delay: calc(.2s * var(--i));
  }
 
 .animate.scroll {
     transition: 1s ease;
-    transition-delay: calc(.3s / var(--i));
+    transition-delay: calc(.2s / var(--i));
     animation: none;
 }
 
@@ -733,7 +733,7 @@ section:nth-child(odd) .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll {
-    transition-delay: calc(.3s * var(--i));
+    transition-delay: calc( .1s * var(--i));
     width: 0;  
 }
 
